@@ -1,0 +1,175 @@
+{
+  "product": {
+    "name": "AutoStream",
+    "tagline": "AI-powered video streaming for creators",
+    "description": "AutoStream helps YouTube, Twitch, and podcast creators auto-publish, caption, and grow their audience with AI.",
+    "founded": "2023",
+    "headquarters": "San Francisco, CA",
+    "website": "https://autostream.ai",
+    "mission": "Democratize professional video publishing for every creator on the planet."
+  },
+  "pricing": {
+    "basic": {
+      "price": "$29/month",
+      "annual_price": "$23/month billed annually",
+      "features": [
+        "10 videos/month",
+        "720p resolution",
+        "Auto-captions",
+        "Email support",
+        "50GB cloud storage",
+        "Basic analytics",
+        "1 connected platform"
+      ],
+      "best_for": "Hobbyist creators",
+      "limitations": "No custom branding, no translations, no API access"
+    },
+    "pro": {
+      "price": "$79/month",
+      "annual_price": "$63/month billed annually",
+      "features": [
+        "Unlimited videos",
+        "4K resolution",
+        "AI captions + translations",
+        "Priority 24/7 support",
+        "Analytics dashboard",
+        "Custom branding",
+        "Unlimited cloud storage",
+        "Up to 3 team seats",
+        "All platform integrations",
+        "Engagement heatmaps",
+        "Scheduled publishing"
+      ],
+      "best_for": "Full-time creators and small teams",
+      "limitations": "No white-labeling, no SLA, no dedicated manager"
+    },
+    "enterprise": {
+      "price": "Custom",
+      "annual_price": "Custom — contact sales for volume discounts",
+      "features": [
+        "Everything in Pro",
+        "Dedicated account manager",
+        "SLA guarantee",
+        "API access",
+        "White-labeling",
+        "Unlimited team seats",
+        "Custom integrations",
+        "On-premise deployment option",
+        "SSO / SAML support",
+        "Priority feature requests"
+      ],
+      "best_for": "Media companies and agencies",
+      "limitations": "None — fully custom"
+    }
+  },
+  "features": {
+    "ai_captions": {
+      "description": "Auto-generated captions in 30+ languages using Whisper-grade accuracy",
+      "languages_supported": 30,
+      "accuracy": "98%+ accuracy on clear audio",
+      "formats": ["SRT", "VTT", "burned-in subtitles"],
+      "availability": "Basic, Pro, Enterprise"
+    },
+    "auto_publish": {
+      "description": "Schedule and publish to YouTube, Twitch, TikTok, LinkedIn simultaneously",
+      "platforms": ["YouTube", "Twitch", "TikTok", "LinkedIn", "Spotify", "RSS feeds"],
+      "scheduling": "Publish immediately or schedule up to 90 days in advance",
+      "availability": "All plans (platform count varies by plan)"
+    },
+    "analytics": {
+      "description": "Real-time viewer retention, engagement heatmaps, and growth trends",
+      "metrics": [
+        "View count",
+        "Watch time",
+        "Retention curves",
+        "Click-through rate",
+        "Subscriber growth",
+        "Revenue estimates",
+        "Geographic breakdown"
+      ],
+      "availability": "Basic (limited), Pro & Enterprise (full)"
+    },
+    "custom_branding": {
+      "description": "Add logo, colors, and intro/outro templates",
+      "options": [
+        "Logo watermark",
+        "Custom color palette",
+        "Intro video template",
+        "Outro / end screen template",
+        "Custom thumbnail overlays"
+      ],
+      "availability": "Pro and Enterprise only"
+    },
+    "ai_translations": {
+      "description": "Translate captions into 30+ languages automatically",
+      "availability": "Pro and Enterprise only"
+    },
+    "engagement_heatmaps": {
+      "description": "Visual overlays showing which parts of your video viewers replay or skip",
+      "availability": "Pro and Enterprise only"
+    }
+  },
+  "policies": {
+    "refund": {
+      "summary": "Full refund within 7 days, no questions asked. After 7 days, no refunds.",
+      "details": "Refund is processed within 3-5 business days back to your original payment method.",
+      "exceptions": "Enterprise plan refunds are governed by contract terms."
+    },
+    "trial": {
+      "summary": "14-day free trial, no credit card required",
+      "plan": "Pro-level features during trial",
+      "conversion": "Auto-converts to Basic plan after trial unless you upgrade or cancel."
+    },
+    "support": {
+      "basic": "Email only — response within 48 hours",
+      "pro": "24/7 live chat + email — response within 2 hours",
+      "enterprise": "Dedicated account manager + phone + email — response within 30 minutes"
+    },
+    "cancel": {
+      "summary": "Cancel anytime. No lock-in contracts.",
+      "details": "Access continues until end of current billing period. No partial refunds for mid-cycle cancellations."
+    },
+    "data_privacy": "AutoStream is GDPR and CCPA compliant. Data is stored in SOC 2 Type II certified infrastructure.",
+    "uptime_sla": "Enterprise plans include 99.9% uptime SLA. Best-effort for Basic and Pro."
+  },
+  "integrations": [
+    "YouTube",
+    "Twitch",
+    "TikTok",
+    "LinkedIn",
+    "Spotify",
+    "RSS feeds",
+    "Zapier",
+    "Slack (notifications)",
+    "Google Drive",
+    "Dropbox"
+  ],
+  "faqs": {
+    "can_i_upgrade": "Yes, upgrade or downgrade anytime. Prorated billing applied automatically.",
+    "team_members": "Pro supports up to 3 seats. Enterprise is unlimited.",
+    "storage": "Basic: 50GB. Pro: unlimited cloud storage. Enterprise: unlimited with dedicated infrastructure.",
+    "free_trial": "Yes, 14-day free trial with full Pro features. No credit card needed.",
+    "video_formats": "We accept MP4, MOV, AVI, MKV, and WebM. Files up to 50GB per upload on Pro/Enterprise.",
+    "api_access": "API access is available on Enterprise plans only. Documentation at docs.autostream.ai.",
+    "white_label": "White-labeling (custom domain, branding, no AutoStream watermark) is available on Enterprise.",
+    "concurrent_streams": "Pro supports up to 3 simultaneous streams. Enterprise is unlimited.",
+    "payment_methods": "We accept all major credit cards, PayPal, and wire transfer for Enterprise.",
+    "can_i_pause": "You can cancel and reactivate at any time. There is no 'pause' feature currently.",
+    "multi_language_captions": "Yes — Pro and Enterprise plans support captions in 30+ languages with AI translation."
+  },
+  "competitors": {
+    "vs_streamyard": "AutoStream offers AI captions and multi-platform publishing; StreamYard focuses on live streaming.",
+    "vs_riverside": "AutoStream adds automated publishing and analytics; Riverside specializes in high-quality recording.",
+    "vs_repurpose_io": "AutoStream is an all-in-one platform; Repurpose.io focuses on repurposing only."
+  },
+  "sales_contact": {
+    "email": "sales@autostream.ai",
+    "demo_link": "https://autostream.ai/demo",
+    "phone": "+1 (800) 555-AUTO"
+  },
+  "support_contact": {
+    "email": "support@autostream.ai",
+    "chat": "Available in-app for Pro and Enterprise",
+    "docs": "https://docs.autostream.ai"
+  }
+}
