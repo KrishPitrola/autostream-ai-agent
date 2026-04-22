@@ -14,7 +14,7 @@
 
 ```bash
 # 1. Clone and enter project
-git clone <your-repo-url>
+git clone https://github.com/KrishPitrola/autostream-ai-agent.git
 cd autostream
 
 # 2. Create and activate virtual environment
